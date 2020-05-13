@@ -412,7 +412,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>第一次陪宝宝跨年！虽然有些狼狈<del>但我们都很开心啦</del><br><img src="/medias/images/%E9%99%AA%E5%AE%9D%E5%AE%9D%E8%B7%A8%E5%B9%B4.jpg" alt=""></p>
+                <p>第一次陪宝宝跨年！虽然有些狼狈!但我们都很开心啦~<br><img src="/forXinshan/medias/images/%E9%99%AA%E5%AE%9D%E5%AE%9D%E8%B7%A8%E5%B9%B4.jpg" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -523,6 +523,33 @@
             
         </div>
     </div>
+
+    
+        <link rel="stylesheet" href="/forXinshan/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/forXinshan/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/forXinshan/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '630fb015c366532ae882',
+        clientSecret: '7cb32fadb752624164355a194c7b874032275157',
+        repo: 'forXinshanComment',
+        owner: 'SpicyChickenEagle',
+        admin: ["SpicyChickenEagle"],
+        id: '2018-12-31T23-59-59',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
 
     
 

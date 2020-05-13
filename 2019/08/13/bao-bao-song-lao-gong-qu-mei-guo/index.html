@@ -408,7 +408,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>要告别的日子终于来了，我们开始了一年多的异国之旅<br>好多照片都是在告别呀呜呜！<br>我们也慢慢克服啦<del>我们的爱情当然是无坚不摧的！爱你爱你爱你<br>等老公回来哦！要乖乖</del><br><img src="/medias/images/%E5%AE%9D%E5%AE%9D%E9%80%81%E6%88%91%E4%B8%8A%E9%A3%9E%E6%9C%BA%E5%91%9C%E5%91%9C.jpg" alt=""></p>
+                <p>要告别的日子终于来了，我们开始了一年多的异国之旅<br>好多照片都是在告别呀呜呜！<br>我们也慢慢克服啦<del>我们的爱情当然是无坚不摧的！爱你爱你爱你<br>等老公回来哦！要乖乖</del><br><img src="/forXinshan/medias/images/%E5%AE%9D%E5%AE%9D%E9%80%81%E6%88%91%E4%B8%8A%E9%A3%9E%E6%9C%BA%E5%91%9C%E5%91%9C.jpg" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -515,6 +515,33 @@
             
         </div>
     </div>
+
+    
+        <link rel="stylesheet" href="/forXinshan/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/forXinshan/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/forXinshan/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '630fb015c366532ae882',
+        clientSecret: '7cb32fadb752624164355a194c7b874032275157',
+        repo: 'forXinshanComment',
+        owner: 'SpicyChickenEagle',
+        admin: ["SpicyChickenEagle"],
+        id: '2019-08-13T14-10-28',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
 
     
 
